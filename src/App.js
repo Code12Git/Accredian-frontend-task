@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import LandingPage from "./routes/LandingPage";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hey</h1>
+    <div>
+      <Toaster />
+      <LandingPage />
     </div>
   );
 }
